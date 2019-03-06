@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shu.hospital_managements_system">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Desktop_Admin.Assign_Staff" />
+        <activity android:name=".Desktop_Admin.Delete_Users" />
+        <activity android:name=".Desktop_Admin.Desktop_Admin" />
+        <activity android:name=".Desktop_Admin.Grant_appointment" />
+        <activity android:name=".Desktop_Admin.Remaining_patient_bills" />
+        <activity android:name=".Doctor.D_Slot" />
+        <activity android:name=".Doctor.Doctor" />
+        <activity android:name=".Doctor.Specialization" />
+        <activity android:name=".Doctor.View_Assigned_Staff" />
+        <activity android:name=".Doctors_available" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Login" />
+        <activity android:name=".Personal_Info" />
+        <activity android:name=".Register" />
+        <activity android:name=".Services_offered" />
+        <activity android:name=".Staff_Member.Assigned_Doctors" />
+        <activity android:name=".Staff_Member.Staff_Member" />
+        <activity android:name=".Doctor.Leaves.Leaves" />
+        <activity android:name=".Doctor.Leaves.View_Leaves" />
+        <activity android:name=".Doctor.Doctor_Patient.Report_Upload" />
+        <activity android:name=".Doctor.Doctor_Patient.Write_Report" />
+        <activity android:name=".Patient.Apply" />
+        <activity android:name=".Patient.Appointment" />
+        <activity android:name=".Patient.Bills" />
+        <activity android:name=".Patient.Confirmed_Appointment" />
+        <activity android:name=".Patient.New_Appointment" />
+        <activity android:name=".Patient.Patient" />
+        <activity android:name=".Patient.Select_Doctor" />
+        <activity android:name=".Patient.Wait_Appointment" />
+        <activity android:name=".Patient.View_Report.Final_View_Report" />
+        <activity android:name=".Patient.View_Report.View_Report" />
+        <activity android:name=".Update">
+        </activity>
+    </application>
+
+</manifest>
